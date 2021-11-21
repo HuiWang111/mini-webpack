@@ -1,0 +1,7 @@
+*.test.tsx
+*.test.ts
+build/**
+node_modules/**
+dist/**
+scripts/**
+example/dist/**

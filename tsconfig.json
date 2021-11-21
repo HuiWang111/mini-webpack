@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es5",
+            "es6",
+            "dom"
+        ],
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "sourceMap": false,
+        "allowJs": false,
+        "strictNullChecks": true,
+        "jsx": "react",
+        "downlevelIteration": true,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+    "exclude": [
+        "__tests__/*.ts",
+        "__tests__/*.tsx"
+    ]
+}
